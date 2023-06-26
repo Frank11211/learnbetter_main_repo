@@ -1,0 +1,273 @@
+*{
+    /* margin : 0px;
+    padding : 0px;
+    list-style-type: none;
+    text-decoration: none; */
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.sidebar-wrapper{
+    position: fixed;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #042331;
+    transition: all .5s ease;
+}
+
+.sidebar-wrapper header {
+    font-size: 22px;
+    padding-left: 40px;
+    color: white;
+    line-height: 70px;
+    background-color: #ab00df;
+    user-select: none;
+}
+
+.sidebar-wrapper li a {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid lightsteelblue;
+    border-bottom: 1px solid black;
+    transition: 0.4s;
+}
+
+.sidebar-item li:hover{
+    transition: 0.4s;
+    background-color: rgb(9, 86, 111);
+}
+
+.sidebar-item li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar-wrapper ul a i {
+    margin-right: 16px;
+}
+
+/* Account Setting  */
+
+.sidebar-acc-wrapper {
+    padding: 12px 10px 20px 12px;
+}
+
+.sidebar-acc-wrapper img{
+   float: left;
+   padding-right: 20px ;
+}
+
+.sidebar-acc-wrapper h4, .sidebar-acc-post {
+    color: white;
+}
+
+#check {
+    display: none;
+}
+
+label #menu_btn, label #menu_cancel {
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
+}
+
+label #menu_btn{
+    padding: 6px 12px;
+    left: 30px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    transition: all .5s;
+}
+
+label #menu_cancel{
+    z-index: 1111;
+    left: -240px;
+    top: 17px;
+    font-size: 20px;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#check:checked ~  .sidebar-wrapper{
+    left: 0;
+}
+
+#check:checked ~  label #menu_btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~  label #menu_cancel{
+    left: 240px;
+}
+
+#check:checked ~ section{
+    margin-left: 300px;
+}
+
+
+section {
+    background: url(../img/sample1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all 0.5s;
+}
+
+/* Action number when side bar menu */
+#check:checked ~ section .num_dis_style{
+    transition: all 0.5s ease;
+    margin: 0px 0px 0px 180px;
+    width: 70%;
+}
+
+#check:checked ~ section .num_dis_style .dboard_design{
+    transition: all 0.5s ease;
+    margin: 20px 20px 30px 16px;
+}
+
+.num_dis_style .dboard_design .count_num_style{
+    font-size: 30px;
+}
+
+.btn_style_3{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 11px 30px;
+    text-align: center;
+    font-size: 21px;
+    cursor: pointer;
+    margin: 20px 0px 0px 35%;
+}
+
+.btn_style_4{
+    background-color: #c72020; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 11px 30px;
+    text-align: center;
+    font-size: 21px;
+    cursor: pointer;
+    margin: 20px 0px 0px 14%;
+}
+
+
+.num_dis_style{
+    transition: all 0.5s ease;
+    position:absolute; 
+    top: 40px;
+    left: 160px; 
+    height: 150px; 
+    width: 80%; 
+    background-color: aqua;
+    border: 3px solid white;
+    border-radius: 3px;
+    display: flex;
+}
+
+.num_dis_style .dboard_design{
+    transition: all 0.5s ease;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding : 20px 40px;
+    margin : 23px 35px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.crud_train_asign_table{
+    transition: all 0.5s ease;
+    position:absolute; 
+    top: 215px;
+    left: 160px; 
+    height: 360px; 
+    width: 80%; 
+    background-color: rgb(199, 146, 42);
+    border: 3px solid white;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+#check:checked ~ section .crud_train_asign_table{
+    margin-left: 180px;  
+    width: 70%;  
+}
+
+.crud_train_asign_table h2{
+    text-align: center;
+}
+
+.candi_confirm_table{
+    transition: all 0.5s ease;
+    position:absolute; 
+    top: 60px;
+    left: 200px; 
+    height: 520px; 
+    width: 75%; 
+    background-color: rgb(199, 146, 42);
+    border: 3px solid white;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#check:checked ~ section .candi_confirm_table{
+    margin-left: 160px;  
+    width: 70%;  
+}
+
+.candi_confirm_table h2{
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 30px;
+}
+
+.candi_confirm_table .candi_confirm_info_table {
+    padding: 20px ;
+    margin: 20px 40px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #1b5975;
+    display: flex;
+    height: 52%;
+}
+
+.candi_confirm_table .candi_confirm_info_table p{ 
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.candi_confirm_table .candi_confirm_info_table .candi_course_info_table {
+    margin: 20px 80px 0px 80px;
+}
+
+.candi_confirm_table .candi_confirm_info_table .candi_date_info_table {
+    margin: 20px 0px 0px 80px;
+}
