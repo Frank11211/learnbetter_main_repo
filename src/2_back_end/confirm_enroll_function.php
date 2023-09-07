@@ -40,13 +40,13 @@
         if($sql_result){
 
             echo '<script>
-                        alert("You have enroll successfully");
+                        alert("You have enrolled successfully");
                         window.location.href = "../1_front_end/learnbetter_C3_view_enrollment_page.php"; 
                       </script>';
 
         }else{
             echo '<script>
-                        alert("Some error occus, please try again ");
+                        alert("An error occurs, please try again ");
                         window.location.href = "../1_front_end/learnbetter_C3_enroll_training_page.php"; 
                 </script>';
         }

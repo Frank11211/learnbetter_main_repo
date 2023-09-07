@@ -63,7 +63,7 @@
               <?php echo $password_error ?>
             </div>
 
-            <button type="submit" class="login_btn_style">Login In</button>
+            <button type="submit" class="login_btn_style">Login</button>
 
         </form>
         

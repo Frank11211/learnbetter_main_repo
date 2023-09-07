@@ -103,9 +103,9 @@
               <tr>
               <!-- Table Title  -->
                   <th>No.</th>
-                  <th>Training Code     </th>
-                  <th>Training Name     </th>
-                  <th>Date & Time       </th>
+                  <th>Course Code              </th>
+                  <th>Course Name              </th>
+                  <th>Date & Time <br> Created </th>
 
               </tr>
 
@@ -150,9 +150,9 @@
               <tr>
               <!-- Table Title  -->
                   <th>No.</th>
-                  <th>Training Code   </th>
-                  <th>Training Name   </th>
-                  <th>Submit Date     </th>
+                  <th>Course Code     </th>
+                  <th>Course Name     </th>
+                  <th>Date Submitted  </th>
 
               </tr>
 
@@ -199,8 +199,8 @@
               <tr>
               <!-- Table Title  -->
                   <th>No.</th>
-                  <th>Training Code     </th>
-                  <th>Training Name     </th>
+                  <th>Course Code       </th>
+                  <th>Course Name       </th>
                   <th>Date & Time       </th>
 
               </tr>

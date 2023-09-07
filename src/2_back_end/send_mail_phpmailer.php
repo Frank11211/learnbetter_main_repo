@@ -51,30 +51,30 @@
         $mail->SMTPSecure = 'tls';							
         $mail->Port	 = 587;
 
-        $mail->setFrom('wenfung11211@gmail.com', 'Lee Wen Fung');	
+        $mail->setFrom('wenfung11211@gmail.com', 'LearnBetter Team');	
 
         // Specific 
         $mail->addAddress($email_trainee_email, 'Name');
         $mail->isHTML(true);		
         
         // Imagine like writing an email
-        $mail->Subject = 'New Training Assign : '.$email_train_name ;
+        $mail->Subject = 'New Training Assigned : '.$email_train_name ;
         $mail->Body = '
                         <b>Below are Course been assigned</b>
 
                         <p>Kindly refer to the assign course credential below, <br> 
-                           You are free to upload any relevant document in account. </p>
+                           You are free to upload any relevant document in your account. </p>
                         <br>
-                        <a href="http://localhost/learnbetter_main/src/1_front_end/learnbetter_login_page.php"> Click here to login account</a>
+                        <a href="http://localhost/learnbetter_main/src/1_front_end/learnbetter_login_page.php"> Click here to login</a>
                         <br><br>
                     
                         <table style="width: 100%; border-collapse: collapse; padding: 5px; text-align: center;">
                             <tr>
-                                <th style="border: 1px solid;"> Training Code           </th>
-                                <th style="border: 1px solid;"> Training Name           </th>
-                                <th style="border: 1px solid;"> Training Pin Code       </th>                     
-                                <th style="border: 1px solid;"> TrainignTime Duration   </th>
-                                <th style="border: 1px solid;"> Assign Trainee          </th>
+                                <th style="border: 1px solid;"> Course Code           </th>
+                                <th style="border: 1px solid;"> Course Name           </th>
+                                <th style="border: 1px solid;"> Course Pin Code       </th>                     
+                                <th style="border: 1px solid;"> Course Duration       </th>
+                                <th style="border: 1px solid;"> Trainee Assigned      </th>
                             </tr>
 
                             <tr>

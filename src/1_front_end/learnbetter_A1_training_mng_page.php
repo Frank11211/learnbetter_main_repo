@@ -55,7 +55,7 @@
             ?>
           </li> <br>
           <!-- Show number of course taken -->
-          <li> Created Course : </li>
+          <li> Course Created : <?php echo dis_num_course($conn);?></li>
         </ul>
     </div>
 
@@ -67,20 +67,20 @@
   
   <!-- Add Trainee Wrapper  -->
   <div  class="add_trainee_table_style">
-    <h2>Training Course Management</h2><br><br>
+    <h2>Course Management</h2><br><br>
     <form method="POST">
       <div class="info_wrapper">
           <div class="trainee_info_style">
 
-            <p>Training Name    : <input type="text" name="training_name_A1"  > </p><br>
-            <p>Training Code    : <input type="text" name="training_code_A1" > </p><br>
-            <p>Training Pin Number: <input type="text" name="training_pin_A1" >  </p><br>
+            <p>Course Name    : <br> <input type="text" name="training_name_A1"  > </p><br>
+            <p>Course Code    : <br> <input type="text" name="training_code_A1" > </p><br>
+            <p>Course Pin Number: <input type="text" name="training_pin_A1" >  </p><br>
 
           </div>
 
           <div class="trainee_acc_style">
             
-            <p>Trainee Assign : <br>
+            <p>Trainer Assigned : <br>
                 <select name="training_trainee_assign_A1">
                     <?php 
                         $sql_query = "SELECT id, user_firstname, user_lastname FROM learnbetter_users WHERE user_prio = 1";
@@ -98,7 +98,7 @@
                 </select>
             </p><br>
 
-            <p>Training Duration  : </p>
+            <p>Course Duration  : </p>
             <div class="training_time_info">
 
               <p>Hours  : <input type="number"  name="training_hours"   min="0" max="20"> </p>
@@ -106,7 +106,7 @@
              
             </div><br>
 
-            <p>Begining Date & Time :<br> <input type="datetime-local" name="training_date_time" >  </p>
+            <p>Beginning Date & Time :<br> <input type="datetime-local" name="training_date_time" >  </p>
            
           </div>
 
@@ -185,18 +185,18 @@
   <!-- Add Trainee Wrapper  -->
   <div class="shw_trainee_table_style">
 
-    <h2>Training Detail Info </h2>
+    <h2>Training Detail </h2>
 
     <table style="width:100%; padding:10px;">
         <tr>
           <!-- Table Title  -->
             <th>No.</th>
-            <th>Training Code     </th>
-            <th>Training Name     </th>
-            <th>Assign Trainee    </th>
-            <th>Training Pin Code </th>
-            <th>Time Duration     </th>
-            <th>Date Register     </th>
+            <th>Course Code       </th>
+            <th>Course Name       </th>
+            <th>Trainer Assigned  </th>
+            <th>Course Pin Code   </th>
+            <th>Course Duration   </th>
+            <th>Date Registered   </th>
             <th>Action            </th>
 
         </tr>

@@ -129,9 +129,9 @@
       <div class="info_wrapper">
           <div class="trainee_info_style">
 
-            <p>Training Name    : <input type="text" name="training_name_A1" value = "<?php echo $updt_train_course_name ?>" > </p><br>
-            <p>Training Code    : <input type="text" name="training_code_A1" value = "<?php echo $updt_train_course_code ?>">  </p><br>  
-            <p>Training Pin Number: <input type="text" name="training_pin_A1" value = "<?php echo $updt_train_course_pin ?>" > </p><br>
+            <p>Course Name    :<br> <input type="text" name="training_name_A1" value = "<?php echo $updt_train_course_name ?>" > </p><br>
+            <p>Course Code    :<br> <input type="text" name="training_code_A1" value = "<?php echo $updt_train_course_code ?>">  </p><br>  
+            <p>Course Pin Number: <input type="text" name="training_pin_A1" value = "<?php echo $updt_train_course_pin ?>" > </p><br>
             
           </div>
 
@@ -164,7 +164,7 @@
              
             </div><br>
 
-            <p>Begining Date & Time :<br> <input type="datetime-local" name="training_date_time" value="<?php echo $updt_train_course_date_time_begin ?>" >  </p>
+            <p>Beginning Date & Time :<br> <input type="datetime-local" name="training_date_time" value="<?php echo $updt_train_course_date_time_begin ?>" >  </p>
 
           </div>
 

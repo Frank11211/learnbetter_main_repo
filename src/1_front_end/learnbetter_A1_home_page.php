@@ -52,7 +52,7 @@
             ?>
           </li> <br>
           <!-- Show number of course taken -->
-          <li> Created Training : <?php echo dis_num_course($conn);?></li>
+          <li> Course Created : <?php echo dis_num_course($conn);?></li>
         </ul>
     </div>
 
@@ -99,7 +99,7 @@
                 <tr>
                     <th>No.</th>
                     <th>Trainer </th>
-                    <th>Course Handel</th>
+                    <th>Course Handled</th>
                 </tr>
 
                 <?php 
@@ -172,10 +172,10 @@
             <table style="width:100%; padding:10px;">
                 <tr>
                     <th>No.</th>
-                    <th>Training Code </th>
-                    <th>Training Name</th>
-                    <th>Date Register </th>
-                    <th>Trainer  </th>     
+                    <th>Course Code </th>
+                    <th>Course Name</th>
+                    <th>Date Registered </th>
+                    <th>Handled By  </th>     
                 </tr>
                 <?php 
 
@@ -215,17 +215,17 @@
         
         <!-- Detail Training Dashboard Menu -->
         <div class="crud_course_table_menu">
-            <h2>Training Detail Info </h2>
+            <h2>Training Detail </h2>
             <table style="width:100%; padding:10px;">
             <tr>
             <!-- Table Title  -->
                 <th>No.</th>
-                <th>Training Code     </th>
-                <th>Training Name     </th>
-                <th>Assign Trainer    </th>
-                <th>Training Pin Code </th>
-                <th>Training Vacant   </th>
-                <th>Date Register     </th>
+                <th>Course Code      </th>
+                <th>Course Name      </th>
+                <th>Trainer Assigned </th>
+                <th>Course Pin Code  </th>
+                <th>Course Duration  </th>
+                <th>Date Registered    </th>
                 <th>Action            </th>
 
             </tr>

@@ -39,7 +39,7 @@
                 unset($_SESSION["trainee_id"]);
 
                 echo '<script>
-                    alert("Trainee have logout has succesfully");
+                    alert("Trainer logout succesfully");
                     window.location.href = "../1_front_end/learnbetter_login_page.php"; 
                 </script>';      
 
@@ -60,7 +60,7 @@
                 unset($_SESSION["user_id"]);
 
                 echo '<script>
-                    alert("Candidate have logout has succesfully");
+                    alert("Candidate logout succesfully");
                     window.location.href = "../1_front_end/learnbetter_login_page.php"; 
                 </script>';        
 

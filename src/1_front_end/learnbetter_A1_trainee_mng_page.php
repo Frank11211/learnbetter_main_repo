@@ -55,7 +55,7 @@
             ?>
           </li> <br>
           <!-- Show number of course taken -->
-          <li> Created Course : </li>
+          <li> Course Created : <?php echo dis_num_course($conn);?></li>
         </ul>
     </div>
 
@@ -168,7 +168,7 @@
             <th>User Gender</th>
             <th>Username   </th>
             <th>Password   </th>
-            <th>Operate    </th>
+            <th>Action     </th>
 
         </tr>
 

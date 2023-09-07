@@ -60,7 +60,7 @@
             ?>
           </li> <br>
           <!-- Show number of course taken -->
-          <li> Created Course : </li>
+          <li> Course Created : <?php echo dis_num_course($conn);?></li>
         </ul>
     </div>
 
@@ -74,7 +74,7 @@
   <!-- Add Trainee Wrapper  -->
   <div  class="add_trainee_table_style">
 
-    <h2>Candidate Assign Management</h2><br><br>
+    <h2>Candidate Assigned Management</h2><br><br>
   
     <form method="POST">
       <div class="info_wrapper">
@@ -84,7 +84,7 @@
                   <tr>
                       <th>No.</th>
                       <th>Candidate Name</th>
-                      <th>Amount Training Attend</th>
+                      <th>Amount of Courses Attended</th>
                   </tr>
                   <?php 
 
@@ -160,17 +160,17 @@
   <!-- Add Trainee Wrapper  -->
   <div class="shw_trainee_table_style">
 
-    <h2>Send Mail History </h2>
+    <h2>Mail Log </h2>
     
     <table style="width:100%; padding:10px;">
         <tr>
           <!-- Table Title  -->
             <th>No.</th>
-            <th>Training Code     </th>
-            <th>Training Name     </th>
-            <th>Trainer Handle    </th>
-            <th>Candidate Send    </th>
-            <th>Date Send         </th>
+            <th>Course Code      </th>
+            <th>Course Name      </th>
+            <th>Handled By       </th>
+            <th>Candidates Sent  </th>
+            <th>Date & Time Sent </th>
 
         </tr>
 

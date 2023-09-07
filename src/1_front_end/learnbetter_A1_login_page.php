@@ -51,7 +51,7 @@
               <h5>Wrong or Empty Input <br> Please try again</h5>
             </div>
 
-            <button type="submit" class="login_btn_style">Login In</button>
+            <button type="submit" class="login_btn_style">Login</button>
             
         </form>
         

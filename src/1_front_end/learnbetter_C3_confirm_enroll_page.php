@@ -95,7 +95,7 @@
           </li> <br>
           <!-- Show number of course taken -->
           <li> 
-            Total Course : <?php echo dis_num_trainee_handle_course($conn, $_SESSION["user_id"]); ?>
+            Enroll Course : <?php echo dis_num_enrollment_course($conn, $_SESSION["user_id"]) ?>
           </li>
         </ul>
     </div>
@@ -118,25 +118,25 @@
 
       <div class="candi_course_info_table">
         <p> Training Name : </p><br>
-        <p> <?php echo $check_course_name; ?></p><br>
+        <p style="color:gold;"> <?php echo $check_course_name; ?></p><br>
 
         <p> Training Code : </p><br>
-        <p> <?php echo $check_course_code; ?></p><br>
+        <p style="color:gold;"> <?php echo $check_course_code; ?></p><br>
 
         <p> Training Lecture : </p><br>
-        <p> <?php echo $check_course_fullname; ?></p><br>
+        <p style="color:gold;"> <?php echo $check_course_fullname; ?></p><br>
 
       </div>
 
       <div class="candi_date_info_table">
         <p> Training Date & Time : </p><br>
-        <p> <?php echo $modify_time_duration  ?> </p><br>
+        <p style="color:gold;"> <?php echo $modify_time_duration  ?> </p><br>
 
         <p> Completion Hour : </p><br>
-        <p> <?php echo convert_hour_minute($check_course_time_duration);?> </p><br>
+        <p style="color:gold;"> <?php echo convert_hour_minute($check_course_time_duration);?> </p><br>
 
         <p> Candidate Name : </p><br>
-        <p> <?php echo $user_fullname; ?></p><br>
+        <p style="color:gold;"> <?php echo $user_fullname; ?></p><br>
 
       </div>
 

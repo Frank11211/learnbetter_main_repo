@@ -34,30 +34,30 @@
             $mail->SMTPSecure = 'tls';							
             $mail->Port	 = 587;
 
-            $mail->setFrom('wenfung11211@gmail.com', 'learnBetter Team');	
+            $mail->setFrom('wenfung11211@gmail.com', 'LearnBetter Team');	
 
             // Specific 
             $mail->addAddress( $email_train_add_mail, 'Name');
             $mail->isHTML(true);		
             
             // Imagine like writing an email
-            $mail->Subject = 'New Trainee Account Created : ';
+            $mail->Subject = 'New Trainer Account Created :- ';
             $mail->Body = '
-                            <b>Below are the trainee account created</b><br><br>
+                            <b>Below are the trainer account created</b><br><br>
 
-                            <p>Please review the account credntial show below, <br> 
-                               You may alter the account credential after login below.</p>
+                            <p>Please review the login credential shown below, <br><br> 
+                               You may alter the login credential after login below.</p>
                             <br>
 
-                            <a href="http://localhost/learnbetter_main/src/1_front_end/learnbetter_login_page.php"> Click here to login account</a>
+                            <a href="http://localhost/learnbetter_main/src/1_front_end/learnbetter_login_page.php"> Click here to login</a>
                             <br><br>
 
                             <table style="width: 100%; border-collapse: collapse; padding: 5px; text-align: center;">
                                 <tr>
-                                    <th style="border: 1px solid;"> Firstname        </th>
-                                    <th style="border: 1px solid;"> Lastname         </th>
-                                    <th style="border: 1px solid;"> Trainee E-mail   </th>                     
-                                    <th style="border: 1px solid;"> Trainee Gender   </th>
+                                    <th style="border: 1px solid;"> First Nname        </th>
+                                    <th style="border: 1px solid;"> Last Name         </th>
+                                    <th style="border: 1px solid;"> Trainer E-mail   </th>                     
+                                    <th style="border: 1px solid;"> Trainer Gender   </th>
                                     <th style="border: 1px solid;"> Account Username </th>
                                     <th style="border: 1px solid;"> Account Password </th>
                                 </tr>

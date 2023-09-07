@@ -2,11 +2,11 @@
 
 function notify_day_2_hour_delays(dateString, courseTitle) {
   // Parse the date string from MySQL into a JavaScript Date object
-  const targetDate = new Date(dateString);1
+  const targetDate = new Date(dateString);
 
-  // Calculate the notification times
-  const notificationTime1 = new Date(targetDate.getTime() - (2 * 60 * 60 * 1000)); // 2 hours before the target date
-  const notificationTime2 = new Date(targetDate.getTime() - (1 * 60 * 60 * 1000)); // 1 hour before the target date
+  // Convert the notification times in milisecond 
+  const notificationTime1 = new Date(targetDate.getTime() - (2 * 60 * 60 * 1000)); // 2 hours before the course date & time
+  const notificationTime2 = new Date(targetDate.getTime() - (1 * 60 * 60 * 1000)); // 1 hour before the course date & time
 
   // Calculate the delays until the notification times
   const delay1 = notificationTime1.getTime() - Date.now();

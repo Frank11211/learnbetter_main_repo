@@ -69,7 +69,7 @@
   <div  class="num_dis_style">
 
     <div class="dboard_design">     
-        <p> Training Enrolled </p>
+        <p> Course Enrolled </p>
         <br>
         <p class="count_num_style"><b><?php echo dis_num_enrollment_course($conn, $_SESSION["user_id"]) ?></b></p>  
     </div>  
@@ -88,7 +88,7 @@
     </div>  
 
     <div class="dboard_design"> 
-        <p>Require Enrollment</p>
+        <p>Enrollment Required</p>
         <br>
         <!-- From the email log , assign by Admin, require to cather delete email log if enrolled -->
         <p class="count_num_style"><b><?php echo dis_num_assign_candi_email($conn, $_SESSION["user_id"]); ?></b></p>
@@ -104,11 +104,11 @@
             <tr>
             <!-- Table Title  -->
                 <th>No.</th>
-                <th>Training Code        </th>
-                <th>Training Name        </th>
-                <th>Course Trainee       </th>
-                <th>Training Duration    </th>
-                <th>Begining Date & Time </th>     
+                <th>Course Code        </th>
+                <th>Course Name        </th>
+                <th>Course Trainer       </th>
+                <th>Course Duration    </th>
+                <th>Beginning Date & Time </th>     
             </tr>
 
             <!-- ALL DATA PERFORM BELOW   -->

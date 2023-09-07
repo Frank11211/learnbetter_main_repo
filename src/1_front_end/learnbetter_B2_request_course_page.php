@@ -45,7 +45,7 @@
           <li> Position : 
             <?php 
                 if(isset($_SESSION['trainee_level']) && $_SESSION['trainee_level'] == 1 ){
-                  echo "<b>Trainee</b>";
+                  echo "<b>Trainer</b>";
               }else{
                   echo "No Position";
               }
@@ -86,7 +86,7 @@
              
             </div><br>
 
-            <p>Begining Date & Time :<br> <input type="datetime-local" name="request_date_time" >  </p>
+            <p>Beginning Date & Time :<br> <input type="datetime-local" name="request_date_time" >  </p>
            
           </div>
             
@@ -170,12 +170,12 @@
       <tr>
         <!-- Table Title  -->
           <th>No.</th>
-          <th>Training Code       </th>
-          <th>Training Name       </th>
-          <th>Trainee Handle      </th>
-          <th>Training Pin        </th>
-          <th>Time Duration       </th>
-          <th>Create Date & Time  </th>
+          <th>Course Code         </th>
+          <th>Course Name         </th>
+          <th>Handled By          </th>
+          <th>Course Pin Number   </th>
+          <th>Course Duration     </th>
+          <th>Date & Time Created </th>
           <th>Action              </th>
 
       </tr>

@@ -114,10 +114,10 @@
                 
                     <div class="info_edit_wrapper">
                         <h2>Account Information</h2><br><br>
-                        <p>Firstname : <input type="text" name="upd_acc_firstN_A1" value= "<?php echo $updt_trainee_firstname ;  ?>"> </p><br>
-                        <p>Lastname  : <input type="text" name="upd_acc_lastN_A1"  value= "<?php echo $updt_trainee_lastname ; ?>"> </p><br>
-                        <p>Gender    : <input type="text" name="upd_acc_gen_A1"    value= "<?php echo $updt_trainee_gender ; ?>"> </p><br>
-                        <p>Gmail     : <input type="text" name="upd_acc_mail_A1"   value= "<?php echo $updt_trainee_email  ; ?>"> </p><br>
+                        <p>First Name : <input type="text" name="upd_acc_firstN_A1" value= "<?php echo $updt_trainee_firstname ;  ?>"> </p><br>
+                        <p>Last Name  : <input type="text" name="upd_acc_lastN_A1"  value= "<?php echo $updt_trainee_lastname ; ?>"> </p><br>
+                        <p>User Gender    : <input type="text" name="upd_acc_gen_A1"    value= "<?php echo $updt_trainee_gender ; ?>"> </p><br>
+                        <p>Email     : <input type="text" name="upd_acc_mail_A1"   value= "<?php echo $updt_trainee_email  ; ?>"> </p><br>
                     </div>
 
                     <div class="verticle_line_style_2"></div>

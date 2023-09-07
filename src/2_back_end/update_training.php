@@ -84,7 +84,7 @@
                 $sql_query_result = $conn->query($query_build);
                 
                 echo '<script>
-                    alert("Training information have update");
+                    alert("Training information have updated");
                     window.location.href = "../1_front_end/learnbetter_A1_training_mng_page.php"; 
                     </script>'; 
             }

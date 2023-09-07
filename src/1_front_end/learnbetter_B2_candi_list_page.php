@@ -82,9 +82,9 @@
                 <!-- Table Title  -->
                 
                 <th>No.</th>
-                <th>Candidate Name                </th>
-                <th>Candidate Email               </th>
-                <th>Candidate Enroll Date & Time  </th>
+                <th>Candidate Name                 </th>
+                <th>Candidate Email                </th>
+                <th>Candidate Date & Time Enrolled </th>
                 <th><button type="button"  id="checkAllButton" class="btn_style_3">Check All</button></th>
             </tr>
 

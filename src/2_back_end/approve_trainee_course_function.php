@@ -116,24 +116,24 @@
               $mail->isHTML(true);		
               
               // Imagine like writing an email
-              $mail->Subject = 'Course Request :'.$req_course_approve_name ;
+              $mail->Subject = 'Course Requested :'.$req_course_approve_name ;
               $mail->Body = '
-                              <b>Training course had been approve </b><br><br>
+                              <b>Training course had been approved </b><br><br>
 
-                              <p> Please review the training credntial show below :</p><br>
+                              <p> Please review the training credential shown below :</p><br>
                               
-                              <a href="http://localhost/learnbetter_main/src/1_front_end/learnbetter_login_page.php"> Click here to login account</a>
+                              <a href="http://localhost/learnbetter_main/src/1_front_end/learnbetter_login_page.php"> Click here to login </a>
                               <br><br>
 
                               <table style="width: 100%; border-collapse: collapse; padding: 5px; text-align: center;">
                                   <tr>
-                                      <th style="border: 1px solid;"> Training Code           </th>
-                                      <th style="border: 1px solid;"> Training Name           </th>
-                                      <th style="border: 1px solid;"> Training Pin Code       </th>                     
-                                      <th style="border: 1px solid;"> Training Time Duration  </th>
-                                      <th style="border: 1px solid;"> Training Pin Number     </th>
-                                      <th style="border: 1px solid;"> Begining Date & Time    </th>
-                                      <th style="border: 1px solid;"> Approval Date           </th>
+                                      <th style="border: 1px solid;"> Course Code           </th>
+                                      <th style="border: 1px solid;"> Course Name           </th>
+                                      <th style="border: 1px solid;"> Course Pin Code       </th>                     
+                                      <th style="border: 1px solid;"> Course Duration       </th>
+                                      <th style="border: 1px solid;"> Course Pin Number     </th>
+                                      <th style="border: 1px solid;"> Beginning Date & Time </th>
+                                      <th style="border: 1px solid;"> Approval Date         </th>
                                   </tr>
 
                                   <tr>

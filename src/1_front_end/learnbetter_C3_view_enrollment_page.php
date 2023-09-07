@@ -55,7 +55,7 @@
           </li> <br>
         
           <li> 
-            Enroll Course : <?php echo dis_num_trainee_handle_course($conn, $_SESSION["user_id"]); ?>
+            Enroll Course : <?php echo dis_num_enrollment_course($conn, $_SESSION["user_id"]) ?>
           </li>
         </ul>
     </div>
@@ -74,12 +74,12 @@
             <tr>
             <!-- Table Title  -->
                 <th>No.</th>
-                <th>Training Code        </th>
-                <th>Training Name        </th>
-                <th>Course Trainee       </th>
+                <th>Course Code        </th>
+                <th>Course Name        </th>
+                <th>Course Trainer       </th>
 
-                <th>Training Duration    </th>
-                <th>Begining Date & Time </th>
+                <th>Course Duration    </th>
+                <th>Beginning Date & Time </th>
                 <th>Action               </th>
 
             </tr>
@@ -131,7 +131,7 @@
 
                 }else{
                   echo "<tr>";
-                    echo "<td colspan='7'> No course have been ernoll </td>"; 
+                    echo "<td colspan='7'> No course have been enrolled </td>"; 
                   echo "<tr>";
                     
                 }

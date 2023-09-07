@@ -55,7 +55,7 @@
           </li> <br>
        
           <li> 
-            Total Course : <?php echo dis_num_trainee_handle_course($conn, $_SESSION["user_id"]); ?>
+           Enroll Course : <?php echo dis_num_enrollment_course($conn, $_SESSION["user_id"]) ?>
           </li>
         </ul>
     </div>
@@ -68,17 +68,17 @@
 
          <!-- CRUD  Course Table Menu -->
          <div class="crud_train_asign_table">
-         <h2>Training Documentation  </h2>
+         <h2>Course Documentation  </h2>
             <table style="width:100%; padding:10px;">
             <tr>
             
             <!-- Table Title  -->
                 <th>No.</th>
-                <th>Training Name          </th>
-                <th>Upload By              </th>
-                <th>Upload Date            </th>
-                <th>Uploaded Document File </th>
-                <th>Action                 </th>
+                <th>Course Name     </th>
+                <th>Uploaded By     </th>
+                <th>Date Uploaded   </th>
+                <th>Document File   </th>
+                <th>Action          </th>
 
             </tr>
 

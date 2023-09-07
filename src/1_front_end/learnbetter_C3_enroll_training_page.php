@@ -54,7 +54,7 @@
           </li> <br>
           <!-- Show number of course taken -->
           <li> 
-            Total Course : <?php echo dis_num_trainee_handle_course($conn, $_SESSION["user_id"]); ?>
+           Enroll Course : <?php echo dis_num_enrollment_course($conn, $_SESSION["user_id"]) ?>
           </li>
         </ul>
     </div>

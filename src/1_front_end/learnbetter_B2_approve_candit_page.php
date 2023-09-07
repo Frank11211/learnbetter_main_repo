@@ -72,13 +72,13 @@
           <tr>
             <!-- Table Title  -->
               <th>No.</th>
-              <th>Training Code     </th>
-              <th>Training Name     </th>
-              <th>Trainer Handle    </th>
-              <th>Training Pin      </th>
-              <th>Time Duration     </th>
-              <th>Begin Date & Time  </th>
-              <th>Action            </th>
+              <th>Course Code           </th>
+              <th>Course Name           </th>
+              <th>Handled By            </th>
+              <th>Course Pin Number     </th>
+              <th>Course Duration        </th>
+              <th>Beginning Date & Time </th>
+              <th>Action                </th>
 
           </tr>
     <?php 

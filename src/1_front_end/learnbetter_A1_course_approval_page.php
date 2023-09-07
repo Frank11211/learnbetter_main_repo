@@ -53,7 +53,7 @@
             ?>
           </li> <br>
           <!-- Show number of course taken -->
-          <li> Created Course : </li>
+          <li> Course Created : <?php echo dis_num_course($conn);?></li>
         </ul>
     </div>
 
@@ -73,12 +73,12 @@
     <tr>
         <!-- Table Title  -->
           <th>No.</th>
-          <th>Training Code       </th>
-          <th>Training Name       </th>
-          <th>Trainer Request     </th>
-          <th>Training Pin        </th>
-          <th>Time Duration       </th>
-          <th>Create Date & Time  </th>
+          <th>Course Code         </th>
+          <th>Course Name         </th>
+          <th>Requested By        </th>
+          <th>Course Pin Number   </th>
+          <th>Course <br> Duration</th>
+          <th>Date & Time Created </th>
           <th>Action              </th>
 
       </tr>

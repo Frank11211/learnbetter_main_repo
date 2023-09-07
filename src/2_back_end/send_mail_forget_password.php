@@ -45,7 +45,7 @@
             $mail->SMTPSecure = 'tls';							
             $mail->Port	 = 587;
 
-            $mail->setFrom('wenfung11211@gmail.com', 'LearnBetter');	
+            $mail->setFrom('wenfung11211@gmail.com', 'LearnBetter Team');	
 
             // Specific 
             $mail->addAddress($recover_email, 'Name');
@@ -61,7 +61,7 @@
                 <p><a href="http://localhost/learnbetter_main/src/1_front_end/learnbetter_reset_password_page.php?token='.$forget_pass_rand_str.'">Click Here to Reset Password</a></p>
                 <p>If you did not request a password reset, please ignore this email.</p>
                 <p>Regards,</p>
-                <p>Your LearnBetter Team</p>
+                <p>LearnBetter Team</p>
                  ';
             $mail->send();
 

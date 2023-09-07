@@ -79,7 +79,7 @@ session_start();
                 }      
             } else {
                 // return   
-                echo '<script> alert("No Username is found , echo from login_validation.php"); </script>';
+                echo '<script> alert("No Username is found"); </script>';
             }
         }else{
             // Show validation going here
